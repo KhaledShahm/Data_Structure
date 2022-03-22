@@ -5,10 +5,11 @@
 # in addition to the correct number of days in each month.
 
 def isLeapYear(year):
-    if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-        return True
-    else:
-        return False
+    # if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    #     return True
+    # else:
+    #     return False
+    return True 
 
 def daysInMonth(year, month):
     assert month > 0 and month <= 12
