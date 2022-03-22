@@ -9,7 +9,7 @@ def nextDay(year, month, day):
         if month < 12:
             return year, month+1, 1
         else:
-            return year+1, month, 1
+            return year+1, 1, 1
 
 
 print(nextDay(2012, 12, 30))
